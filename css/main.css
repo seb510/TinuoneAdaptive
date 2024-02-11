@@ -54,10 +54,6 @@ h2 {
     padding-bottom: 105px;
 }
 
-.menu {
-    margin-top:8px;
-}
-
 .menu__item {
     margin: 0 57px;
 }
@@ -195,10 +191,16 @@ h2 {
         /* ADAPTIVE */
 
 @media screen and (max-width: 992px){
+    .header {
+        padding-bottom: 0;
+    }
     .logo{
         display: block;
         margin: 0 auto;
         margin-bottom: 30px;
+    }
+    .ipad {
+        margin: 60px auto;
     }
 
     .offer{
